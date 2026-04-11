@@ -1,0 +1,58 @@
+site_name: Автотехническая экспертиза и Диагностика автомобилей
+docs_dir: docs
+site_url: https://And442.github.io/auto/
+theme:
+  name: material
+  #favicon: assets/logo.ico
+  #logo: assets/logo.ico
+  palette:
+    - scheme: default
+      primary: green
+      accent: grey
+      toggle:
+        icon: material/weather-night
+        name: Тёмная тема
+    - scheme: slate
+      primary: green
+      accent: grey
+      toggle:
+        icon: material/weather-sunny
+        name: Светлая тема
+site_author: Andrei S
+copyright: 2026, Andrei S
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - attr_list
+  - md_in_html
+plugins:
+  - search
+  - glightbox
+nav:
+- Главная: index.md
+- "Диагностика":
+    - "Диагностика автомобилей": DIAG/auto_diag.md
+    - "Обзор литературы": DIAG/literature_review_diag.md
+    - "Полезные ресурсы": DIAG/useful_resources_diag.md
+    - "Общая информация":
+        - "Базовая электрика":
+            - "Напряжение": DIAG/general_information/basic_electrical/voltage.md
+            - "Защитные элементы цепей": DIAG/general_information/basic_electrical/Protective_elements_of_electrical_circuits.md
+    - "Устройство и диагностика систем автомобиля":
+        - "Система кондиционирования воздуха": DIAG/diagnostics_of_vehicle_systems/AC_diagnostics.md
+- "НТЭ":
+    - "Независимая техническая экспертиза": NTE/about_nte.md
+    - "Нормативные и правовые акты с кратким обзором": NTE/laws_and_sources_nte.md
+    - "Информационное обеспечение НТЭ ТС": NTE/info_source_nte.md
+    - "Единая методика": NTE/unified_methodology.md
+    - "Программный комплекс Audatex": NTE/software_package_Audatex.md
+- "САТЭ":
+    - "Судебная автотехническая экспертиза": SATE/about_sate.md
+    - "Нормативные и правовые акты с кратким обзором": SATE/laws_and_sources_sate.md
+    - "Методика судебных экспертов 2019": SATE/expert_methodology_2019.md
+    - "Обзор литературы": SATE/literature_review_sate.md
+    - "Полезные ресурсы": SATE/useful_resources_sate.md
