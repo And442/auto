@@ -1,5 +1,12 @@
+# Python venv
 .venv/
+
+# MkDocs build
 site/
+
+# Python cache
 __pycache__/
-*.pyc.DS_Store
+*.pyc
+
+# macOS system files
 .DS_Store
