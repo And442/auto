@@ -3,6 +3,7 @@ docs_dir: docs
 site_url: https://And442.github.io/auto/
 theme:
   name: material
+  custom_dir: docs/overrides
   #favicon: assets/logo.ico
   #logo: assets/logo.ico
   palette:
