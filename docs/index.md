@@ -8,6 +8,19 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
 
+cd /Users/macbookpro/code/auto 
+
+source .venv/bin/activate
+
+mkdocs serve --dev-addr 127.0.0.1:8000 --livereload
+
+git add .
+git commit -m "update" 
+git push
+mkdocs gh-deploy
+
+
+
 * `mkdocs new [dir-name]` - Create a new project.
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs serve --dev-addr 127.0.0.1:8000 --livereload` - Start the live-reloading docs server.
