@@ -3,6 +3,8 @@ docs_dir: docs
 site_url: https://And442.github.io/auto/
 theme:
   name: material
+  features:
+    - content.cards.link
   custom_dir: docs/overrides
   #favicon: assets/logo.ico
   #logo: assets/logo.ico
@@ -30,6 +32,7 @@ markdown_extensions:
   - pymdownx.blocks.caption
   - attr_list
   - md_in_html
+  - tables
 plugins:
   - search
   - glightbox
@@ -37,12 +40,9 @@ nav:
 - Главная: index.md
 - "Диагностика":
     - "Диагностика автомобилей": DIAG/auto_diag.md
+    - "Ремонт и диагностика": DIAG/repair_cases/repair_cases.md
     - "Обзор литературы": DIAG/literature_review_diag.md
     - "Полезные ресурсы": DIAG/useful_resources_diag.md
-    - "Общая информация":
-        - "Базовая электрика":
-            - "Напряжение": DIAG/general_information/basic_electrical/voltage.md
-            - "Защитные элементы цепей": DIAG/general_information/basic_electrical/Protective_elements_of_electrical_circuits.md
     - "Устройство и диагностика систем автомобиля":
         - "Система кондиционирования воздуха": DIAG/diagnostics_of_vehicle_systems/AC_diagnostics.md
 - "НТЭ":

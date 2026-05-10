@@ -2,7 +2,7 @@
 
 !!! info inline ""
 
-    ![Image title](images/1.png){ align=left } 
+    ![Image title](images/1.jpg){ align=left } 
 
 * **Научно-практический журнал "Проблемы экспертизы в автомобильно-дорожной отрасли"** [ссылка](https://areemadi.ru/).  
 
