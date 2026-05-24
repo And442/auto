@@ -45,6 +45,7 @@ nav:
     - "Полезные ресурсы": DIAG/useful_resources_diag.md
     - "Устройство и диагностика систем автомобиля":
         - "Система кондиционирования воздуха": DIAG/diagnostics_of_vehicle_systems/AC_diagnostics.md
+        - "Очистка отработавших газов в дизельных двигателях": DIAG/diagnostics_of_vehicle_systems/diesel_exhaust_cleaning.md
 - "НТЭ":
     - "Независимая техническая экспертиза": NTE/about_nte.md
     - "Нормативные и правовые акты с кратким обзором": NTE/laws_and_sources_nte.md
