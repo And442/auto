@@ -19,6 +19,8 @@ git commit -m "update"
 git push
 mkdocs gh-deploy
 
+mkdocs gh-deploy --force
+
 
 
 * `mkdocs new [dir-name]` - Create a new project.

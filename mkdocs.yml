@@ -40,8 +40,8 @@ nav:
 - Главная страница: index.md
 - "Диагностика":
     - "Диагностика автомобилей": DIAG/auto_diag.md
-    - "Сборник ремонтных случаев": DIAG/repair_cases/repair_cases.md
-    - "Обзор ремонтных случаев": DIAG/repair_cases_overview/repair_cases_overview.md
+    - "Сборник случаев ремонта": DIAG/repair_cases/repair_cases.md
+    - "Обзор случаев ремонта": DIAG/repair_cases_overview/repair_cases_overview.md
     - "Обзор литературы": DIAG/literature_review_diag.md
     - "Полезные ресурсы": DIAG/useful_resources_diag.md
     - "Устройство и диагностика систем автомобиля":

@@ -99,6 +99,6 @@
 
     ![Image title](images/10.jpg){ align=left } 
 
-* **Сайт Легион-Автодата"** [ссылка](http://mlab.org.ua/).  
+* **Сайт Легион-Автодата"** [ссылка](https://autodata.ru/article/).  
 
 <small>Технические статьи о диагностике и форум диагностов.</small>
